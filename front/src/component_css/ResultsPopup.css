@@ -1,0 +1,66 @@
+.results-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .results-popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .buttons-container {
+    margin-top:2rem;
+    display: flex;
+    gap:1.5rem;
+    width: 100%;
+  }
+
+  .copy-button {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    transition: background-color 0.2s ease;
+    }
+    
+    .copy-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    }
+
+    .save-button{
+        background-color: #5dce50;
+        border: 1px solid #5dce50;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        transition: background-color 0.2s ease;
+    }
+
+    .save-button:hover {
+        background-color: #47a03d;
+        border-color: #47a03d;
+        }
